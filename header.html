@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+</head>
+<body>
+    <nav id="navbar" class="fixed top-0 z-50 w-full flex justify-between items-center bg-transparent px-5 py-3 lg:px-12 lg:py-3 ">
+        <div class="relative z-30"><a href="index.html"><img class="w-20 h-auto lg:w-full" src="images/nav-logo.png" alt="Exlrate"></a></div>
+        <ul id="navbar" class="bg-primaryColor absolute top-0 left-0 z-20 h-screen w-full p-5 pt-20 hidden flex-col items-center lg:p-0 lg:pt-0 lg:bg-transparent lg:static lg:flex lg:flex-row lg:h-fit lg:w-fit gap-5 text-white">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="accomplishments.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div onclick="toggleMenu()" class="hover:cursor-pointer relative z-30 flex flex-col gap-1 lg:hidden">
+            <div class="w-5 h-0.5 bg-white burger-bar"></div>
+            <div class="w-5 h-0.5 bg-white burger-bar"></div>
+            <div class="w-5 h-0.5 bg-white burger-bar"></div>
+
+            <div class="w-5 h-5 cross-bar">
+                <h1 class="text-lg text-white">X</h1>
+            </div>
+        </div>
+    </nav>
+
+    
+</body>
+</html>

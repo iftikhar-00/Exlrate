@@ -1,0 +1,118 @@
+/* scrollbar style --------------------- */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 0px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2C0066;
+    border-radius: 0px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6300FA80;
+    
+  }
+
+/* scrollbar style --------------------------- */
+
+
+.home-hero-section{
+    background-image: url(./images/home-hero-bg.png);
+    background-blend-mode: luminosity;
+}
+
+.img-div-1{
+    background-image: url(./images/service-img-1.png);
+    background-blend-mode: luminosity;
+}
+
+.img-div-2{
+    background-image: url(./images/service-img-2.png);
+    background-blend-mode: luminosity;
+}
+
+.img-div-3{
+    background-image: url(./images/service-img-3.png);
+    background-blend-mode: luminosity;
+}
+
+.img-div-4{
+    background-image: url(./images/service-img-4.png);
+    background-blend-mode: luminosity;
+}
+
+.feature-section{
+    background-image: url(./images/feature-bg.png);
+}
+
+.about-hero-section{
+    background-image: url(images/about-hero-bg-2.png);
+    /* border-radius: 0 0 50% 50%/0 0 20% 20%; */
+}
+
+#header-container{
+    height: 47.29px;
+}
+
+@media (min-width: 1024px){
+    
+    #header-container{
+        height: 70px;
+    }
+}
+
+.contact-hero-section{
+    background-image: url(images/contact-hero-bg.png);
+
+}
+
+.contact-form-section{
+    background-image: url(images/contact-form-bg.png);
+}
+
+.work-hero-section{
+    background-image: url(images/work-hero-bg.png);
+}
+
+.outlined-text {
+    -webkit-text-stroke: 1px white; /* Adjust the width and color as needed */
+    
+}
+
+#navbar.open ul {
+    display: flex; /* Display the menu when the open class is present */
+}
+
+body.menu-open {
+    overflow: hidden; /* Disable scrolling when the menu is open */
+}
+
+.cross-bar {
+    display: none;
+  }
+
+  .cross-bar.active {
+    display: block;
+  }
+
+  .burger-bar.active {
+    display: none;
+  }
+
+.button-violet-bg{
+    @apply bg-primaryColor rounded-full text-white hover:bg-violetDark font-medium px-4 py-2 mt-7;
+}
+
+.button-white-bg{
+    @apply bg-primaryColor rounded-full text-white hover:bg-violetDark font-medium px-4 py-2 mt-7;
+}
+
