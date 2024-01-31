@@ -63,10 +63,56 @@
     height: 47.29px;
 }
 
+/* @media (min-width: 768px){
+    .solv-section{
+        border-radius: 100px 100px 0 0;
+    }
+} */
+
 @media (min-width: 1024px){
     
     #header-container{
-        height: 70px;
+        height: 80px;
+    }
+
+    .home-hero-section{
+        border-radius: 0 0 100px 100px;
+    }
+
+    .team-section{
+        border-radius: 0 0 100px 100px;
+    }
+
+    .footer-section{
+        border-radius: 100px 100px 0 0;
+    }
+
+    .solv-section{
+        border-radius: 100px 100px 0 0;
+    }
+
+    .contact-form-bg-2{
+        border-radius: 0 0 100px 100px;
+    }
+
+    .contact-form-section{
+        border-radius: 0 0 100px 100px;
+    }
+
+    .work-section{
+        border-radius: 0 0 100px 100px;
+    }
+
+    .feature-section{
+        border-radius: 100px 100px 0 0;
+    }
+
+    .start-business{
+        border-radius: 0 0 100px 100px;
+    }
+
+    .comment-section{
+        border-radius: 100px 100px 0 0;
     }
 }
 
@@ -115,4 +161,17 @@ body.menu-open {
 .button-white-bg{
     @apply bg-primaryColor rounded-full text-white hover:bg-violetDark font-medium px-4 py-2 mt-7;
 }
+
+img.xlogo{
+    min-width: 122px !important;
+    max-width: 122px;
+    height: 133px !important;
+}
+
+.contact-form-bg-2{
+    background-image: url(images/contact-form-bg-2.png);
+}
+
+
+
 
